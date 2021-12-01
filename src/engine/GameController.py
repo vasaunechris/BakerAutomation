@@ -1,10 +1,10 @@
 
 from abc import ABCMeta, abstractmethod
+from pygame import event
 
-class GameController:
+class GameController(event):
 
     __metaclass__ = ABCMeta
 
-    @classmethod
-    def getCommand(cls):
-        pass
+    @abstractmethod
+    def getCommand(cls): raise NotImplementedError
