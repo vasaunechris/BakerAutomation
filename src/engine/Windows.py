@@ -8,7 +8,7 @@ class Windows:
         (width, height) = (300,300)#(self.gamePainter.getWidth(), self.gamePainter.getHeight())
         self.screen = pygame.display.set_mode((width, height))
         pygame.display.set_caption('Test')
-        background_colour = (255,255,255)
+        background_colour = (0,0,0)
         self.screen.fill(background_colour)
         pygame.display.flip()
 
